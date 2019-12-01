@@ -1,12 +1,11 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
-
 from clevertap import CleverTap
 import argparse
 import datetime
 import json
 import csv
-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf8')
 MAX_BATCH_SIZE = 5000
 
 
