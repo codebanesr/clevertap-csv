@@ -100,4 +100,4 @@ def main(account_id, passcode, region, path_json, path_csv, type_of_download):
 
 if __name__ == "__main__":
     # your basic configuration params               from and to dates       dummy           event/profile
-    main("clevertapid", "clevertappassword", None, "./files/config.json", "./files/user.csv", "event")
+    main("clevertapid", "clevertappassword", None, "./files/config.json", "./files/user.csv", "profile")
